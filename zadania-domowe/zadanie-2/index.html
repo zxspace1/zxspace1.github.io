@@ -5,6 +5,55 @@
     <title>Document</title>
 </head>
 <body>
- <p>Zadanie 2</p>   
+ <p>Zadanie 2</p>
+  <body>
+    <h1>Formularz</h1>
+    <form action="https://formspree.io/zxspace1@gmail.com" method="POST">
+        <label for="imie">Imię:</label>
+        <br/>
+        <input type="text" name="imie" id="imie">
+        <br/>
+        <label for="nazwisko">Nazwisko:</label>
+        <br/>
+        <input type="text" name="nazwisko" id="nazwisko">
+        <br/>
+        <label for="mail">mail:</label>
+        <br/>
+        <input type="text" name="mail" id="mail">
+        <br/>
+        <label for="telefon">Telefon:</label>
+        <br/>
+        <input type="text" name="telefon" id="telefon">
+        <br/>
+        <label for=“wybor-miasta”>Wybór miasta:</label>
+        <br/>
+        <select name="select">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa" selected>Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select>
+        <br/>
+        <br/>
+        <label for="plec">płeć: </label>
+        <br/>
+        <input type="radio" name="gender" value="female" checked> Kobieta
+        <br/>
+        <input type="radio" name="gender" value="male"> Mężczyzna
+        <br/>
+        <br/>
+        <label for="zgoda">Zgoda na dane osobowe </label>
+        <br/>
+        <input type="checkbox" name="zgoda" value="zgoda">Wyrażam zgodę
+        <br/>
+        <input type="checkbox" name="zgoda" value="zgoda">Nie wyrażam zgody
+        <br/>
+        <br/>
+        <label for="wiadomosc">wiadomość </label>
+        <br/>
+        <textarea maxlength="1000"></textarea>
+        <br/>
+        <input type="submit" value="Send">
+        <br/> </form>
+</body>  
 </body>
 </html>
