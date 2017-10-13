@@ -17,37 +17,38 @@
         <br/>
         <input type="text" name="nazwisko" id="nazwisko">
         <br/>
-        <label for="mail">mail:</label>
+        <label for="email">email:</label>
         <br/>
-        <input type="text" name="mail" id="mail">
+        <input type="email" name="email" id="email">
         <br/>
-        <label for="telefon">Telefon:</label>
+        <label for="phone">Telefon:</label>
         <br/>
-        <input type="text" name="telefon" id="telefon">
+        <input type="text" name="phone" id="phone">
         <br/>
         <label for=“wybor-miasta”>Wybór miasta:</label>
         <br/>
-        <select name="select" name="miasto" id="miasto">
+        <select name="miasto" id="miasto">
             <option value="krakow">Kraków</option>
             <option value="warszawa">Warszawa</option>
             <option value="gdansk">Gdańsk</option>
-            <br/>
-            <p>płeć</p>
-            <label for="plec"></label>
-            <input type="radio" name="gender" id="female" value="female" checked> Kobieta
-            <br/>
-            <label for="plec"></label>
-            <input type="radio" name="gender" id="male" value="male" checked> Mężczyzna
-            <br/>
-            <br/> </select>
-        <label for="zgoda">Zgoda na dane osobowe </label>
+        </select>
+        <br/>
+        <label>płeć:</label>
+        <br/>
+        <label for="gender"><input type="radio" name="gender" id="male">Mężczyzna</label>
+        <br/>
+        <label for="gender"><input type="radio" name="gender" id="female">Kobieta</label>
+
+        <br/>
+        <br/>
+        <label for="apply">Zgoda na dane osobowe </label>
         <br/>
         <input type="checkbox" name="zgoda" id="zgoda" value="zgoda">Wyrażam zgodę
         <br/>
         <br/>
-        <label for="wiadomosc">wiadomość </label>
+        <label for="msg">wiadomość </label>
         <br/>
-        <textarea maxlength="1000" name="wiadomosc" id="wiadomosc"></textarea>
+        <textarea maxlength="1000" name="msg" id="msg"></textarea>
         <br/>
         <input type="submit" value="Send">
         <br/> </form>
