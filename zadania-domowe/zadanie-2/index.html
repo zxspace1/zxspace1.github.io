@@ -6,55 +6,51 @@
     <title>Document</title>
 </head>
 
-    <body>
-        <h1>Formularz</h1>
-        <form action="https://formspree.io/zxspace1@gmail.com" method="POST">
-            <label for="imie">Imię:</label>
+<body>
+    <h1>Formularz</h1>
+    <form action="https://formspree.io/zxspace1@gmail.com" method="POST">
+        <label for="imie">Imię:</label>
+        <br/>
+        <input type="text" name="imie" id="imie">
+        <br/>
+        <label for="nazwisko">Nazwisko:</label>
+        <br/>
+        <input type="text" name="nazwisko" id="nazwisko">
+        <br/>
+        <label for="mail">mail:</label>
+        <br/>
+        <input type="text" name="mail" id="mail">
+        <br/>
+        <label for="telefon">Telefon:</label>
+        <br/>
+        <input type="text" name="telefon" id="telefon">
+        <br/>
+        <label for=“wybor-miasta”>Wybór miasta:</label>
+        <br/>
+        <select name="select" name="miasto" id="miasto">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
             <br/>
-            <input type="text" name="imie" id="imie">
-            <br/>
-            <label for="nazwisko">Nazwisko:</label>
-            <br/>
-            <input type="text" name="nazwisko" id="nazwisko">
-            <br/>
-            <label for="mail">mail:</label>
-            <br/>
-            <input type="text" name="mail" id="mail">
-            <br/>
-            <label for="telefon">Telefon:</label>
-            <br/>
-            <input type="text" name="telefon" id="telefon">
-            <br/>
-            <label for=“wybor-miasta”>Wybór miasta:</label>
-            <br/>
-            <select name="select" name="miasto" id="miasto">
-                <option value="krakow">Kraków</option>
-                <option value="warszawa">Warszawa</option>
-                <option value="gdansk">Gdańsk</option>
-            </select>
-            <br/>
-            
             <p>płeć</p>
             <label for="plec"></label>
-            
             <input type="radio" name="gender" id="female" value="female" checked> Kobieta
             <br/>
             <label for="plec"></label>
             <input type="radio" name="gender" id="male" value="male" checked> Mężczyzna
             <br/>
-            <br/>
-            <label for="zgoda">Zgoda na dane osobowe </label>
-            <br/>
-            <input type="checkbox" name="zgoda" id="zgoda" value="zgoda">Wyrażam zgodę
-            <br/>
-            
-            <br/>
-            <label for="wiadomosc">wiadomość </label>
-            <br/>
-            <textarea maxlength="1000" name="wiadomosc" id="wiadomosc"></textarea>
-            <br/>
-            <input type="submit" value="Send">
-            <br/> </form>
-    </body>
+            <br/> </select>
+        <label for="zgoda">Zgoda na dane osobowe </label>
+        <br/>
+        <input type="checkbox" name="zgoda" id="zgoda" value="zgoda">Wyrażam zgodę
+        <br/>
+        <br/>
+        <label for="wiadomosc">wiadomość </label>
+        <br/>
+        <textarea maxlength="1000" name="wiadomosc" id="wiadomosc"></textarea>
+        <br/>
+        <input type="submit" value="Send">
+        <br/> </form>
+</body>
 
 </html>
