@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formularz</h1>
+    <form action="https://formspree.io/zxspace1@gmail.com" method="POST">
+        <label for="name">Imię:</label>
+        <br />
+        <input type="text" name="name" id="name">
+        <br />
+        <label for="lastname">Nazwisko:</label>
+        <br />
+        <input type="text" name="lastname" id="lastname">
+        <br />
+        <label for="mail">E-mail:</label>
+        <br />
+        <input type="email" name="_replyto" id="mail">
+        <br />
+        <label for="phone">Telefon:</label>
+        <br />
+        <input type="text" name="phone" id="phone">
+        <br />
+        <label for="city">Wybór miasta:</label>
+        <br />
+        <select name="city" id="city">
+            <option value="krakow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select>
+        <br />
+        <br />
+        <label>Wybierz płeć:</label>
+        <br />
+        <input type="radio" name="gender" id="male">Mężczyzna
+        <br />
+        <input type="radio" name="gender" id="female">Kobieta
+        <br />
+        <br />
+        <input type="checkbox" name="agreement" id="agreement">
+        <label for="agreement">Wyrażam zgodę na przetważanie danych osobowych</label>
+        <br />
+        <br />
+        <label for="message">Wiadomość</label>
+        <br>
+        <textarea name="message" cols="30" rows="10" maxlength="100" id="message"></textarea>
+        <br />
+        <input type="submit" value="Send">
+        <br />
+    </form>
+</body>
+
+</html>
