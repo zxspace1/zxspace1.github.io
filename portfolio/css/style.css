@@ -1,0 +1,59 @@
+
+
+.header {
+    background-image: url(../img/header.jpg);
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+    height: 70vh;
+    line-height: 2.15;
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-weight: 600;
+    color: #007bff;
+    text-transform: uppercase;
+
+}
+h2 {
+    text-align: center;
+    font-weight: 300;
+    color: #777;
+}
+
+hr {
+
+    max-width: 50px;
+    border-color: #007bff;
+    border-width: 1px;
+}
+
+.menu  {
+    text-align: center;
+    background-color: #007bff;
+    height: 50px;
+    color: #fff;
+    
+    
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#pierwsza {
+    text-transform: uppercase;
+    border: solid #007bff 2px;
+    color: #777;
+}
+.about-content {
+    text-transform: uppercase;
+}
+.about-jpg {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
