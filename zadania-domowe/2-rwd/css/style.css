@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    font-family: Verdana, sans-serif;
+}
+
+header {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
