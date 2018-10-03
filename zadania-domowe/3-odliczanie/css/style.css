@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+
+#count {
+    position: relative;
+    width: 35%;
+    height: 50vh;
+    background-color: green;
+    color: darkred;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#count::after {
+    animation-name: count;
+    animation-duration: 11s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    content: '10';
+}
+
+@keyframes count {
+    0% {
+        content: "10";
+    }
+
+    10% {
+        content: "9";
+    }
+
+    20% {
+        content: "8";
+    }
+
+    30% {
+        content: "7";
+    }
+
+    40% {
+        content: "6";
+    }
+
+    50% {
+        content: "5";
+    }
+
+    60% {
+        content: "4";
+    }
+
+    70% {
+        content: "3";
+    }
+
+    80% {
+        content: "2";
+    }
+
+    90% {
+        content: "1";
+    }
+
+    100% {
+        content: "I love CSS ! :)";
+    }
+}
